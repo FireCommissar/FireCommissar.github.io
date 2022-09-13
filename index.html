@@ -7,6 +7,7 @@
   <body>
 	<h1>Домашняя работа</h1>
 	<p><a name="top"></a></p>
+	<h3>Ссылки</h3>
 	<ol>
      <li><a href="http://www.example.com">Абсолютная гиперссылка на главную страницу</a></li>
      <li><a href="https://www.example.com">Абсолютная гиперссылка на главную страницу https</a></li>
@@ -37,5 +38,80 @@
      <li><a href="/index.html">Сокращенная ссылка на главную</a></li>
      <li><a href="/meow.html">Сокращенная ссылка на внутреннюю</a></li>
 </ol>
+			
+<h3>Форма</h3>
+
+<form action="/"
+     method="POST">
+
+     <label>
+       Имя:<br />
+       <input name="field-name-1" placeholder="Введите ваше имя"/>
+     </label><br />
+
+     <label>
+       Ваш email:<br />
+       <input name="field-email"
+         type="email"
+         placeholder="Введите вашу почту" />
+     </label><br />
+
+     <label>
+       Дата рождения:<br />
+       <input name="field-date"
+         value="1900-01-01"
+         type="date" />
+     </label><br />
+	 
+	 Пол:<br />
+     <label><input type="radio" checked="checked"
+       name="radio-group-1"/>
+       Мужской</label>
+     <label><input type="radio"
+       name="radio-group-1"/>
+       Женский</label><br />
+	   
+	   Количество конечностей:<br />
+     <label><input type="radio" checked="checked"
+       name="radio-group-2"/>
+	   1</label>
+     <label><input type="radio"
+       name="radio-group-2"/>
+       2</label>
+	 <label><input type="radio"
+       name="radio-group-2"/>
+       3</label>
+	 <label><input type="radio"
+       name="radio-group-2"/>
+       4</label>
+	 <label><input type="radio"
+       name="radio-group-2"/>
+       5 и более</label><br />
+	   
+	   <label>
+       Ваши сверхспособности:<br />
+       <select name="field-name-3" multiple="multiple">
+         <option>Бессмертие</option>
+         <option>Полёт</option>
+         <option>Вампиризм</option>
+		 <option>Обращение в животных</option>
+       </select>
+     </label><br />
+
+     <label>
+       Биография:<br />
+       <textarea name="field-name-2"></textarea>
+     </label><br />
+
+     Чекбокс:<br />
+     <label><input type="checkbox" checked="checked"
+       name="check-1" />
+       С контрактом ознакомлен</label><br />
+
+
+     <input type="submit" value="Отправить" />
+   </form>
+  </body>
+</html>
   </body>
 </html>
