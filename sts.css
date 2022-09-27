@@ -12,8 +12,12 @@ header
 	margin-top: 0px;
 	height:100px;
 	widtx: 100%;
-	background: #98fb98 url(image.png) no-repeat;
-	text-align: center;
+	background: #98fb98;
+}
+div.head
+{
+	margin: 0 auto;
+	max-width: 960px;
 }
 footer
 {	
