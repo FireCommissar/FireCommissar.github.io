@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>ДЗ</title>
+<link rel="stylesheet" href="sts.css">
+</head>
+
+  <body>
+	<header>
+	<div class="head">
+		<img src="image.png">
+		<h1>Домашняя работа</h1>
+		</div>
+	</header>
+	
+	<p><a name="top"></a></p>
+	<div class="nav">
+	<ul id="nav2"> <li><a  href="#top">Начало</a></li> <li><a href="#form">К форме</a></li> <li><a href="#tab">К таблице</a></li><ul>
+	</div>
+	<div class="links">
+	<h3>Ссылки</h3>
+	<ol>
+     <li><a href="http://www.example.com">Абсолютная гиперссылка на главную страницу</a></li>
+     <li><a href="https://www.example.com">Абсолютная гиперссылка на главную страницу https</a></li>
+     <li><a href="ftp://files.com/learning/test.txt">Ссылка на файл на сервере ftp без авторизации </a></li>
+     <li><a href="ftp://login:password@files.com/learning/test.txt">Ссылка на файл на сервере ftp с авторизацией </a></li>
+     <li><a href="https://www.example.com/#id23">Ссылка на фрагмент страницы некоторого сайта</a></li>
+     <li><a href="#top">Ссылка на фрагмент текущей страницы</a></li>
+     <li><a href="https://example.com?file=text&coast=null">Ссылка с двумя параметрами в URL</a></li>
+     <li>Список ссылок основной навигации сайта с подписями title
+     <ul>
+         <li><a href=files/first.html" title="На главную">На главную</a></a></li>
+         <li><a href=files/contacts.html" title="Контакты">Контакты</a></a></li>
+		<li><a href=files/site.html" title="О сайте">О сайте</a></a></li>
+     </ul>
+     </li>
+     <li><a>Ссылка без href</a></li>
+     <li><a href="">Ссылка с пустым href</a></li>
+     <li><a href="https://www.example.com" rel="nofollow">Ссылка, по которой запрещен переход поисковикам</a></li>
+     <noindex><li><a href="https://www.example.com">Запрещенная для индексации поисковиками ссылка</a></li></noindex>
+     <li>Контекстная <a href="https://www.example.com">ссылка</a> в тексте абзаца</li>
+     <li><a href="https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D1%88%D0%BA%D0%B0"><img src="caturl.jpg" width="200" 
+  height="200" alt="кошка"></a></li>
+     <li>Ссылка из прямоугольных и круглых областей картинки (HTML-тег map)
+	 <img src="circle.png" width="600" 
+  height="200" usemap="#figure">
+   <map name="figure">
+	<area shape = "rect" coords = "0,200,300,0" href = "https://ru.wikipedia.org/wiki/%D0%9A%D1%80%D1%83%D0%B3" alt = "круг" >
+	<area shape = "rect" coords = "200,300,600,0" href = "https://ru.wikipedia.org/wiki/%D0%9A%D1%80%D1%83%D0%B3" alt = "круг" >
+  </body>
+</html></li>
+     <li><a href="index.html">Относительная ссылка на страницу в текущем каталоге</a></li>
+     <li><a href="about/about.html">Относительная ссылка на страницу в каталоге about</a></li>
+     <li><a href="../level1.html">Относительная ссылка на страницу в каталоге уровнем выше текущего</a></li>
+     <li><a href="../../level2.html">Относительная ссылка на страницу в каталоге двумя уровнями выше</a></li>
+     <li><a href="/">Сокращенная ссылка на главную</a></li>
+     <li><a href="/enter/meow.html">Сокращенная ссылка на внутреннюю</a></li>
+</ol>
+</div>
+<p><a name="form"><a><p>
+
+
+<p><a name="tab"></a></p>
+<table>
+			<th> <td>name1</td> <td>name2</td> <td>name3</td> <td>name4</td> <td>name5</td> </th>			
+<tr> <td class="nechet">Здесь</td> <td>могла</td> <td class="nechet">бы</td> <td>быть</td> <td class="nechet">ваша</td> </tr>
+<tr> <td>реклама</td> <td class="nechet">h7</td> <td colspan="2">h8</td> <td class="nechet">h10</td> </tr>
+<tr> <td>h11</td> <td class="nechet">h12</td> <td>h13</td> <td class="nechet">h14</td> <td>h15</td> </tr>
+<tr> <td class="nechet">h16</td> <td>h17</td> <td class="nechet" >h18</td> <td>h19</td> <td class="nechet" rowspan="2">h20</td> </tr>
+<tr> <td>h21</td> <td class="nechet">h22</td> <td>h23</td> <td class="nechet">h24</td> </tr>
+</table>
+
+<div id="forma">
+<h3>Форма</h3>
+
+<form action="/"
+     method="POST">
+
+     <label>
+       Имя:<br />
+       <input name="field-name-1" placeholder="Введите ваше имя"/>
+     </label><br />
+
+     <label>
+       Ваш email:<br />
+       <input name="field-email"
+         type="email"
+         placeholder="Введите вашу почту" />
+     </label><br />
+
+     <label>
+       Дата рождения:<br />
+       <input name="field-date"
+         value="1900-01-01"
+         type="date" />
+     </label><br />
+	 
+	 Пол:<br />
+     <label><input type="radio" checked="checked"
+       name="radio-group-1"/>
+       Мужской</label>
+     <label><input type="radio"
+       name="radio-group-1"/>
+       Женский</label><br />
+	   
+	   Количество конечностей:<br />
+     <label><input type="radio" checked="checked"
+       name="radio-group-2"/>
+	   1</label>
+     <label><input type="radio"
+       name="radio-group-2"/>
+       2</label>
+	 <label><input type="radio"
+       name="radio-group-2"/>
+       3</label>
+	 <label><input type="radio"
+       name="radio-group-2"/>
+       4</label>
+	 <label><input type="radio"
+       name="radio-group-2"/>
+       5 и более</label><br />
+	   
+	   <label>
+       Ваши сверхспособности:<br />
+       <select name="field-name-3" multiple="multiple">
+         <option>Бессмертие</option>
+         <option>Полёт</option>
+         <option>Вампиризм</option>
+		 <option>Обращение в животных</option>
+       </select>
+     </label><br />
+
+     <label>
+       Биография:<br />
+       <textarea name="field-name-2"></textarea>
+     </label><br />
+
+     Чекбокс:<br />
+     <label><input type="checkbox" checked="checked"
+       name="check-1" />
+       С контрактом ознакомлен</label><br />
+
+
+     <input type="submit" value="Отправить" />
+   </form>
+   </div>
+   <footer>
+	(c) Макеев Владислав, 2022
+	</footer>
+	</body>
+</html>
