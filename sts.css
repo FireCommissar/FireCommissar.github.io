@@ -5,7 +5,6 @@ body
 h1 {
 	color: green;
 	font-size: 40px;
-	display: inline-block;
 }
 
 header
@@ -20,6 +19,7 @@ div.head
 {
 	margin: 0 auto;
 	max-width: 960px;
+	display: inline-block;
 }
 footer
 {	
