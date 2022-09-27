@@ -20,8 +20,8 @@ footer
 	margin-top: 100px;
 	height:100px;
 	widtx: 100%;
-	background: #98fb98 url(image.png) no-repeat;
-	text-align: center;
+	background: #98fb98;
+	text-align: left;
 }
 div.links
 {
