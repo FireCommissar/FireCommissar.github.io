@@ -1,0 +1,95 @@
+{
+	font-family: Calibri,sans-serif;
+}
+body
+{
+	display: flex;
+	flex-direction: column;
+	background: #FFE4E1;
+}
+h1 {
+	color: green;
+	font-size: 40px;
+	vertical-align: top;
+	text-align: right;
+}
+
+header
+{	
+	
+	height:100px;
+	widtx: 100%;
+	background: #98fb98;
+	
+	
+}
+header div
+{
+	display: flex;
+	justify-content: space-between;
+	width:100%;
+	max-width:960px;
+	margin-left: auto;
+	margin-right:auto;
+}
+footer
+{	
+	margin-top: 100px;
+	height:100px;
+	widtx: 100%;
+	background: #98fb98;
+	text-align: left;
+	order: 3;
+}
+div.nav
+{
+	background: #98fb98;
+	max-width: 960px;
+	align: center;
+	display: flex;
+	flex-direction: column;
+	height:65px;
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+div.nav a
+{
+	display: inline-block;
+	margin-left: 10px;
+	padding: 2px;
+}
+div.links
+{
+	background: #98fb98;
+	max-width: 960px;
+	align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+#forma
+{
+	background: #98fb98;
+	width: 960px;
+	align: center;
+	margin-left: auto;
+	margin-right: auto;
+	order:2;
+	
+}
+table
+{
+	border: 1px solid grey;
+	margin-left: auto;
+	margin-right: auto;
+	width:960px;
+	order: 1;
+}
+td
+{
+	background: green;
+}
+td.nechet
+{
+background: #98fb98;
+}
