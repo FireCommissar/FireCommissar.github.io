@@ -1,0 +1,90 @@
+{
+	font-family: Calibri,sans-serif;
+}
+h1 {
+	color: green;
+	font-size: 40px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+header
+{	
+	margin-top: 0px;
+	height:100px;
+	widtx: 100%;
+	background: #98fb98;
+	vertical-align: middle;
+	
+}
+header div
+{
+	display: flex;
+	width:100%;
+	max-width:960px;
+	margin-left: auto;
+	margin-right:auto;
+}
+div.head1
+{
+	max-width: 960px;
+}
+footer
+{	
+	margin-top: 100px;
+	height:100px;
+	widtx: 100%;
+	background: #98fb98;
+	text-align: left;
+}
+div.nav
+{
+	background: #98fb98;
+	height: 50px;
+	max-width: 960px;
+	align: center;
+	margin-left: auto;
+	margin-right: auto;
+	vertical-align: middle;
+}
+#nav2
+{
+	text-align: center;
+}
+#nav2 li
+{
+	display: inline-block;
+}
+div.links
+{
+	background: #98fb98;
+	max-width: 960px;
+	align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+#forma
+{
+	background: #98fb98;
+	max-width: 960px;
+	align: center;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+table
+{
+	border: 1px solid grey;
+	margin-left: auto;
+	margin-right: auto;
+	width:100%;
+	max-width: 960px;
+}
+td
+{
+	background: green;
+}
+td.nechet
+{
+background: #98fb98;
+}
