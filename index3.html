@@ -64,17 +64,6 @@
 </div>
 <p><a name="form"><a><p>
 
-
-<p><a name="tab"></a></p>
-<table>
-<tr> <td>колонка 1</td> <td>колонка 2</td> <td>колонка 3</td> <td>колонка 4</td> <td>колонка 5</td> </tr>			
-<tr> <td class="nechet">Здесь</td> <td>могла</td> <td class="nechet">бы</td> <td>быть</td> <td class="nechet">ваша</td> </tr>
-<tr> <td>реклама</td> <td class="nechet">h7</td> <td colspan="2">h8</td> <td class="nechet">h10</td> </tr>
-<tr> <td>h11</td> <td class="nechet">h12</td> <td>h13</td> <td class="nechet">h14</td> <td>h15</td> </tr>
-<tr> <td class="nechet">h16</td> <td>h17</td> <td class="nechet" >h18</td> <td>h19</td> <td class="nechet" rowspan="2">h20</td> </tr>
-<tr> <td>h21</td> <td class="nechet">h22</td> <td>h23</td> <td class="nechet">h24</td> </tr>
-</table>
-
 <div id="forma">
 <h3>Форма</h3>
 
@@ -127,7 +116,7 @@
 	   
 	   <label>
        Ваши сверхспособности:<br />
-       <select name="field-name-3" multiple="multiple">
+       <select name="field-name-3[]" multiple="multiple">
          <option>Бессмертие</option>
          <option>Полёт</option>
          <option>Вампиризм</option>
@@ -149,6 +138,17 @@
      <input type="submit" value="Отправить" />
    </form>
    </div>
+   
+<p><a name="tab"></a></p>
+<table>
+<tr> <td>колонка 1</td> <td>колонка 2</td> <td>колонка 3</td> <td>колонка 4</td> <td>колонка 5</td> </tr>			
+<tr> <td class="nechet">Здесь</td> <td class="nechet">могла</td> <td class="nechet">бы</td> <td class="nechet">быть</td> <td class="nechet">ваша</td> </tr>
+<tr> <td>реклама</td> <td>h7</td> <td colspan="2">h8</td> <td>h10</td> </tr>
+<tr> <td class="nechet">h11</td> <td class="nechet">h12</td> <td class="nechet">h13</td> <td class="nechet">h14</td> <td class="nechet">h15</td> </tr>
+<tr> <td>h16</td> <td>h17</td> <td>h18</td> <td>h19</td> <td rowspan="2">h20</td> </tr>
+<tr> <td class="nechet">h21</td> <td class="nechet">h22</td> <td class="nechet">h23</td> <td class="nechet">h24</td> </tr>
+</table>
+
    <footer>
 	(c) Макеев Владислав, 2022
 	</footer>
