@@ -16,8 +16,15 @@ header
 	widtx: 100%;
 	background: #98fb98;
 	vertical-align: middle;
-	text-align: center;
 	
+}
+header div
+{
+	display: flex;
+	width:100%;
+	max-width:960px;
+	margin-left: auto;
+	margin-right:auto;
 }
 div.head1
 {
