@@ -1,278 +1,64 @@
-body {
-    padding: 0;
-    margin: 0;
+#list, #table, #form{
+	background-color: #98fb98; 
+	padding: 0 10px 10px 10px;
+}
 
+nav {
+	background-color:#98fb98;
+	padding: 10px;
+}
+footer, header {
+	height: 120px;
+	background-color: #98fb98;
+}
+footer{
+    text-align: center;
+}
+body {
+	background: #98fb98;
 }
 
 #logo {
-    width: 100px;
-    height: 100px;
-    float: left;
-    margin: 10px;
-    margin-left: 10px;
-
+	border-radius: 50%;
+	float:left;
+	height: 90%;
 }
 
-header {
-    height: 140px;
-    background: #98fb98;
-    margin-top: -20px;
-    padding-top: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-header h1 {
-    float: right;
-    margin-right: 10px;
-}
-
-
-
-.main,
-.form {
-    margin: 0 auto;
-    max-width: 960px;
-    background: #98fb98;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    margin-top: 15px;
-    margin-bottom: 0px;
-    padding-right: 10px;
-
-}
-
-<!-- nav ul {
-
-    padding-left: 0px;
-    padding-right: 10px;
-    margin-left: 0px;
-    
-
-} -->
-
-nav ul li {
-    list-style-type: none;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
-nav a {
-    text-decoration: none;
-
-}
-
-.link {
-    margin-right: 10px;
-}
-
-a {
-    color: rgb(14, 46, 17);
-}
-
-table,
-th,
-td {
-    border: 1px solid black;
-    border-collapse: collapse;
-    text-align: center;
-    margin-right: 10px;;
+#name {
+	font-size: 30pt;
 }
 
 .nechet {
-    background-color: rgb(113, 199, 120);
+	background: #98fb98;
 }
 
-.chet {
-    background-color: rgb(54, 145, 61);
+table {
+	border: 1px solid black;
+    border-collapse: collapse;
+    background: green;
 }
 
-ol,
-nav,
-table,
-form {
-    max-width: 100%;
-    margin: 0 auto;
-    margin-bottom: 10px;
-    margin-left: 10px;
-
+tr {
+	border: 1px solid black;
+    border-collapse: collapse;
+}
+td{
+    border: 1px solid black;
+    border-collapse: collapse;
 }
 
-footer {
-    height: 100px;
-    background: #98fb98;
-    margin-top: 30px;
-    padding-top: 1px;
-    flex: 0 0 auto;
+nav ul {
+	list-style-type: none;
 }
 
-
-.header {
-    max-width: 100%;
-    margin: 0 auto;
-
+li a img {
+	height: 60%;
+	width: 60%;
 }
 
-#table-form {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: 100%;
-
-}
-
-
-
- .form {
-    order: -1;
-    width: 100%;
-}
-
-.main {
-    width: 100%;
-}
-
-.row-flex {
-    display: flex;
-    flex-flow: row wrap;
-
-}
-
-.h-100 {
-    background: #98fb98;
-    
-}
-
-
-
-
-
-@media screen and (min-width: 1100px) {
-        padding: 0;
-        margin: 0;
-    }
-
-    #logo {
-        width: 100px;
-        height: 100px;
-        float: left;
-        margin: 10px;
-        /* margin-left: 110px;*/
-
-    }
-
-    .header {
-        max-width: 960px;
-        margin: 0 auto;
-    }
-
-    header {
-        height: 140px;
-        width: 100%;
-        background: #98fb98;
-        margin-top: -20px;
-        padding-top: 20px;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-
-    
-
-    
-
-    .main,
-    .form {
-        margin: 0 auto;
-        max-width: 960px;
-        background: #98fb98;
-        padding-top: 10px;
-        padding-bottom: 5px;
-        margin-top: 15px;
-        margin-bottom: 0px;
-        padding-right: 10px;
-
-    }
-
-    nav ul {
-        text-align: center;
-        padding-left: 10px;
-        padding-right: 10px;
-
-
-
-    }
-
-    nav ul li {
-        display: inline-block;
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-
-    nav a {
-        text-decoration: none;
-
-    }
-
-    .link {
-        margin-right: 10px;
-    }
-
-    a {
-        color: rgb(14, 46, 17);
-    }
-
-    table,
-    th,
-    td {
-        border: 1px solid black;
-        border-collapse: collapse;
-        text-align: center;
-
-    }
-
-    .nechet {
-        background-color: rgb(113, 199, 120);
-    }
-
-    .chet {
-        background-color: rgb(54, 145, 61);
-    }
-
-    ol,
-    nav,
-    table,
-    form {
-        max-width: 960px;
-        margin: 0 auto;
-        margin-bottom: 10px;
-        margin-left: 10px;
-
-    }
-
-    footer {
-        height: 100px;
-        background: #98fb98;
-        margin-top: 30px;
-        padding-top: 1px;
-        flex: 0 0 auto;
-    }
-
-    nav {
-        width: 100%;
-    }
-
-    #table-form {
-        display: block;
-
-    }
-
-    .row-flex {
-        display: flex;
-        flex-flow: row wrap;
-
-    }
-
-    .h-100 {
-        background: #98fb98;
-        
-    }
-    
+@media screen and (min-width: 768px) {
+	li a img {
+		height: 35%;
+		width: 35%;
+	}
 }
