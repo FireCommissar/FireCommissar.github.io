@@ -32,7 +32,7 @@ checkDiv.style.display = (select.value == "3" ? "block" : "none");
 
   let checkboxes = document.querySelectorAll("#checkboxes input");
   checkboxes.forEach(function(checkbox) {
-    if (checkbox.checked) {
+    if ((checkbox.checked)&&(select.value=="3")) {
       let propPrice = prices.prodProperties[checkbox.name];
       if (propPrice !== undefined) {
         price += propPrice;
@@ -48,8 +48,9 @@ function getPrices() {
   return {
     prodTypes: [100, 200, 150],
     prodOptions: {
-      option2: 10,
-      option3: 5,
+      option1: 0,
+      option2: 55,
+      option3: 75,
     },
     prodProperties: {
       prop1: 100,
