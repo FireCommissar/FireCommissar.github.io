@@ -20,7 +20,7 @@ checkDiv.style.display = (select.value == "3" ? "block" : "none");
 
   let radios = document.getElementsByName("prodOptions");
   radios.forEach(function(radio) {
-    if (radio.checked) {
+    if ((radio.checked)&&(select.value=="2")) {
       let optionPrice = prices.prodOptions[radio.value];
       if (optionPrice !== undefined) {
         price += optionPrice;
