@@ -1,11 +1,28 @@
-function itog()
-{
-let f1=Number(document.getElementById("field1").value);
-let f2=Number(document.getElementById("field2").value);
-let f3=f1*f2;
-if ((f1>0)&&(f2>0))
-{
-document.getElementById("f3").innerHTML = f3;
-}
-else {document.getElementById("f3").innerHTML = "Введите корректные данные (без отрицательных чисел)";}
-}
+
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <title>Задание 5</title>
+    <meta charset="utf-8">
+    <script src="script5.js" defer></script>
+</head>
+
+<body>
+    <form>
+        Цена товара:
+        <label><input name="field1" type="text"></label>
+        <br>
+
+        Количество товара:
+        <label><input name="field2" type="text"></label>
+        <br>
+
+        <button type="button" id="button1"> Рассчитать </button>
+    </form>
+    <div>
+        Итого: <span id="result"></span>
+    </div>
+</body>
+
+</html>
