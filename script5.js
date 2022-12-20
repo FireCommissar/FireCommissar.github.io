@@ -1,28 +1,17 @@
+window.addEventListener("DOMContentLoaded", function () {
+    let b = document.getElementById("button1");
+    b.addEventListener("click", count);
+});
 
-<!DOCTYPE html>
-<html lang="ru">
-
-<head>
-    <title>Задание 5</title>
-    <meta charset="utf-8">
-    <script src="script5.js" defer></script>
-</head>
-
-<body>
-    <form>
-        Цена товара:
-        <label><input name="field1" type="text"></label>
-        <br>
-
-        Количество товара:
-        <label><input name="field2" type="text"></label>
-        <br>
-
-        <button type="button" id="button1"> Рассчитать </button>
-    </form>
-    <div>
-        Итого: <span id="result"></span>
-    </div>
-</body>
-
-</html>
+function count() {
+    let f1 = document.getElementsByName("field1");
+    let f2 = document.getElementsByName("field2");
+    let r = document.getElementById("result");
+    let regexp = /\D/;
+    if (regexp.test(String(f1[0].value)) || regexp.test(String(f2[0].value))) {
+        r.innerHTML = "Error";
+    } else {
+        r.innerHTML = f1[0].value * f2[0].value;
+    }
+    return false;
+}
