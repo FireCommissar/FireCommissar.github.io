@@ -1,15 +1,28 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-</head>
-<body>
-<!-- <script src="script5.js"></script> -->
-<script src="script5.js"></script>
-<p>Вы можете рассчитать стоимость вашего заказа</p>
-<p>Количество товаров <input id="field1" style="margin-left: 36px"/></p>
-<p>Стоимость одного товара <input id="field2"/></p>
-<button id="button1" type="button">Итого</button>
-<p>Стоимость вашего заказа <div id="f3"></p>
 
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <title>Задание 5</title>
+    <meta charset="utf-8">
+    <script src="script5.js" defer></script>
+</head>
+
+<body>
+    <form>
+        Цена товара:
+        <label><input name="field1" type="text"></label>
+        <br>
+
+        Количество товара:
+        <label><input name="field2" type="text"></label>
+        <br>
+
+        <button type="button" id="button1"> Рассчитать </button>
+    </form>
+    <div>
+        Итого: <span id="result"></span>
+    </div>
 </body>
+
+</html>
